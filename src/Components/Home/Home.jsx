@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../Nav/Nav';
 import Banner from '../Banner/Banner';
 import About from '../About/About';
@@ -8,6 +8,9 @@ import Contact from '../Contact/Contact';
 import Footer from '../footer/Footer';
 
 const Home = () => {
+    useEffect(()=>{
+        document.title='Md.Emon Khan | Home'
+    },[])
     return (
         <div>
             
