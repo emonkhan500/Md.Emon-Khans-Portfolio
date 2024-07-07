@@ -34,7 +34,7 @@ const Nav = () => {
                         </ScrollLink>
                     </ul>
                 </div>
-                <div><img className='border-2 border-red-600 h-24 w-24 rounded-full' src="/src/assets/Untitled design (2).png" alt="" /></div>
+                <div><img className='border-2 border-red-600 h-24 w-24 rounded-full' src="https://i.ibb.co/yqTrLCS/Untitled-design-2.png" alt="" /></div>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

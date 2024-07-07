@@ -10,7 +10,7 @@ const Projects = () => {
   <figure>
     <img
     className='h-[550px] w-full'
-      src="/src/assets/b9-assignment-12-real-estate.web.app_.png"
+      src="https://i.ibb.co/R47mhJ0/b9-assignment-12-real-estate-web-app.png"
       alt="" />
   </figure>
   <div className="card-body">
@@ -36,7 +36,7 @@ const Projects = () => {
   <figure>
     <img
     className='h-[550px] w-full'
-      src="/src/assets/b9-assignment-11.web.app_.png"
+      src="https://i.ibb.co/XxyzJYR/b9-assignment-11-web-app.png"
       alt="" />
   </figure>
   <div className="card-body">
@@ -62,7 +62,7 @@ const Projects = () => {
   <figure>
     <img
     className='h-[550px] w-full'
-      src="/src/assets/b9-assignment10-f3bf8.web.app_.png"
+      src="https://i.ibb.co/4RM8q3k/b9-assignment10-f3bf8-web-app.png"
       alt="" />
   </figure>
   <div className="card-body">

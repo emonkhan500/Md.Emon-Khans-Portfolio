@@ -16,7 +16,7 @@ Besides practice and work, I am constantly learning new things and love learning
 </p>
             </div>
             <div className='w-1/2 px-20'>
-                <img className='rounded-full mt-6 lg:mt-8 h-64 border-4 border-red-700 w-h-64' src="/src/assets/Untitled design (2).png" alt="" />
+                <img className='rounded-full mt-6 lg:mt-8 h-64 border-4 border-red-700 w-h-64' src="https://i.ibb.co/yqTrLCS/Untitled-design-2.png" alt="" />
             </div>
            </div>
         </div>
