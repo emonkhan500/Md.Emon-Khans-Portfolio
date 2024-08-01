@@ -18,7 +18,7 @@ const Footer = () => {
             <ScrollLink to="about" smooth={true} duration={500}>
             <li className='text-gray-500 text-xl font-semibold'>SKILL</li>
             </ScrollLink>
-            <ScrollLink to="about" smooth={true} duration={500}>
+            <ScrollLink to="contact" smooth={true} duration={500}>
             <li className='text-gray-500 text-xl font-semibold'>CONTACT</li>
             </ScrollLink>
 			
