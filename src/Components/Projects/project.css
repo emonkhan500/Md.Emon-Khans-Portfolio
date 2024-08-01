@@ -1,0 +1,19 @@
+.img-container {
+    height: 300px; /* Adjust this height as needed to show 10% of the image */
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 4s linear;
+    width: 100%;
+    height: full;
+}
+
+.img-container:hover img {
+    transform: translateY(-78%); /* Move the image up to show the rest */
+}
+

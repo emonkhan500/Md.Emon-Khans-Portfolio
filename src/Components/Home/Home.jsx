@@ -12,7 +12,7 @@ const Home = () => {
         document.title='Md.Emon Khan | Home'
     },[])
     return (
-        <div>
+        <div className='border-red-600 border-2'>
             
             <Nav></Nav>
             <Banner></Banner>
