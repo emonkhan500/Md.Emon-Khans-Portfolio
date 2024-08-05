@@ -1,5 +1,5 @@
 .img-container {
-    height: 300px; /* Adjust this height as needed to show 10% of the image */
+    height: 300px; 
     overflow: hidden;
     position: relative;
 }
@@ -14,6 +14,6 @@
 }
 
 .img-container:hover img {
-    transform: translateY(-78%); /* Move the image up to show the rest */
+    transform: translateY(-78%); 
 }
 

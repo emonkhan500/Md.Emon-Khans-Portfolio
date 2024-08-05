@@ -24,7 +24,7 @@ const Nav = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <ScrollLink to="about" smooth={true} duration={500}>
-                            <li className='text-gray-500 text-xl font-semibold'><a>ABOUT</a></li>
+                            <li className='text-gray-500 text-xl  font-semibold'><a>ABOUT</a></li>
                         </ScrollLink>
                         <ScrollLink to="skills" smooth={true} duration={500}>
                             <li className='text-gray-500 text-xl font-semibold'><a>SKILL</a></li>
@@ -39,7 +39,7 @@ const Nav = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <ScrollLink to="about" smooth={true} duration={500}>
-                        <li className='text-gray-500 text-xl ml-4 font-semibold'><a>ABOUT</a></li>
+                        <li className='text-gray-500 text-xl ml-4  font-semibold'><a>ABOUT</a></li>
                     </ScrollLink>
                     <ScrollLink to="projects" smooth={true} duration={500}>
                         <li className='text-gray-500 text-xl ml-4 font-semibold'><a>PROJECT</a></li>
