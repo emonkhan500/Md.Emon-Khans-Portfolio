@@ -6,7 +6,7 @@ const Nav = () => {
         <div className="navbar px-10 lg:px-32 fixed z-10 bg-[#15151580]">
             <div className="navbar-start">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost text-gray-500 lg:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost text-white lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-8 w-8"
@@ -22,33 +22,33 @@ const Nav = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <ScrollLink to="about" smooth={true} duration={500}>
-                            <li className='text-gray-500 text-xl  font-semibold'><a>ABOUT</a></li>
+                            <li className='text-white text-xl  font-semibold'><a>ABOUT</a></li>
                         </ScrollLink>
                         <ScrollLink to="skills" smooth={true} duration={500}>
-                            <li className='text-gray-500 text-xl font-semibold'><a>SKILL</a></li>
+                            <li className='text-white text-xl font-semibold'><a>SKILL</a></li>
                         </ScrollLink>
                         <ScrollLink to="projects" smooth={true} duration={500}>
-                            <li className='text-gray-500 text-xl font-semibold'><a>PROJECT</a></li>
+                            <li className='text-white text-xl font-semibold'><a>PROJECT</a></li>
                         </ScrollLink>
                     </ul>
                 </div>
-                <div><img className='border-2 border-red-600 max-h-32 w-24 rounded-full' src="https://i.ibb.co/yqTrLCS/Untitled-design-2.png" alt="" /></div>
+                <div><img className='border-2 border-red-600 h-24 w-24 rounded-full' src="https://i.ibb.co/yqTrLCS/Untitled-design-2.png" alt="" /></div>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu text-white menu-horizontal px-1">
                     <ScrollLink to="about" smooth={true} duration={500}>
-                        <li className='text-gray-500 text-xl ml-4  font-semibold'><a>ABOUT</a></li>
+                        <li className='text-white text-xl ml-4  font-semibold'><a>ABOUT</a></li>
                     </ScrollLink>
                     <ScrollLink to="projects" smooth={true} duration={500}>
-                        <li className='text-gray-500 text-xl ml-4 font-semibold'><a>PROJECT</a></li>
+                        <li className='text-white text-xl ml-4 font-semibold'><a>PROJECT</a></li>
                     </ScrollLink>
                     <ScrollLink to="skills" smooth={true} duration={500}>
-                        <li className='text-gray-500 text-xl ml-4 font-semibold'><a>SKILL</a></li>
+                        <li className='text-white text-xl ml-4 font-semibold'><a>SKILL</a></li>
                     </ScrollLink>
                     <ScrollLink to="contact" smooth={true} duration={500}>
-                        <li className='text-gray-500 text-xl ml-4 font-semibold'><a>CONTACT</a></li>
+                        <li className='text-white text-xl ml-4 font-semibold'><a>CONTACT</a></li>
                     </ScrollLink>
                 </ul>
             </div>
