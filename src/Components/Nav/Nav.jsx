@@ -3,6 +3,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Nav = () => {
     return (
+        
         <div className="navbar px-10 lg:px-32 fixed z-10 bg-[#15151580]">
             <div className="navbar-start">
                 <div className="dropdown">
