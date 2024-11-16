@@ -1,6 +1,7 @@
 import React from 'react';
 
 const About = () => {
+    
     return (
         <div className='bg-[#212428] pt-8 pb-10 lg:px-40'>
             <hr  className='mx-20 lg:mx-36'/>
