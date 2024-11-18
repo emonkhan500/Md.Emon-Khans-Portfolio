@@ -6,6 +6,7 @@ const About = () => {
         
         <div className='bg-[#212428] pt-8 pb-10 lg:px-40'>
             <hr  className='mx-20 lg:mx-36'/>
+            
            <div className='flex flex-col lg:flex-row  gap-6 justify-center items-center mt-14'>
            <div className='text-white px-12 lg:px-20 mt-8 lg:w-1/2'>
                 <h1 className='font-semibold mb-2'>About Me</h1>
